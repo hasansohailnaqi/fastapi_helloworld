@@ -10,4 +10,9 @@ def index():
 @app.get("/piaic/")
 def piaic():
     return {"company" : "pakistan" }
+
+# @app.get("/piaic/")
+# def piaic():
+#     return {"company" : "pakistan" }
+    
     
